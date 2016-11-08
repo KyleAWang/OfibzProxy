@@ -42,9 +42,13 @@ def api_root(request, format=None):
 class OrderStatusView(APIView):
     def get(self, request, orderId):
         soapClient = SoapClient()
-        print('**********', orderId, 'end')
-        orderStatus = soapClient.test_soap_client(orderId)
+        orderStatus = soapClient.getOrderStatus(orderId)
         serializer = OrderStatusSerializer(orderStatus)
         return Response(serializer.data)
 
+class WorkEffortsView(APIView):
+    def get(self, request):
+        soapClient = SoapClient()
+        soapClient.getWorkEfforts()
+        return Response();
 

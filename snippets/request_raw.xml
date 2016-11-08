@@ -1,0 +1,437 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://ofbiz.apache.org/service/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:getWorkEffort>
+         <map-Map>
+            <!--Zero or more repetitions:-->
+            <ser:map-Entry>
+               <ser:map-Key>
+                  <ser:std-String value="?"/>
+               </ser:map-Key>
+               <ser:map-Value>
+                  <!--You have a CHOICE of the next 27 items at this level-->
+                  <ser:null value="?"/>
+                  <ser:std-String value="?"/>
+                  <ser:std-Integer value="?"/>
+                  <ser:std-Long value="?"/>
+                  <ser:std-Float value="?"/>
+                  <ser:std-Double value="?"/>
+                  <ser:std-Boolean value="?"/>
+                  <ser:std-Locale value="?"/>
+                  <ser:sql-Timestamp value="?"/>
+                  <ser:sql-Date value="?"/>
+                  <ser:sql-Time value="?"/>
+                  <ser:col-ArrayList>
+                     <!--You have a CHOICE of the next 27 items at this level-->
+                     <!--Zero or more repetitions:-->
+                     <ser:null value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-String value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Integer value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Long value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Float value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Double value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Boolean value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Locale value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Timestamp value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Date value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Time value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-ArrayList/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-LinkedList/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Stack/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Vector/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-TreeSet/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-HashSet/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Collection/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-HashMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Properties/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Hashtable/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-WeakHashMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-TreeMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Map/>
+                     <!--Zero or more repetitions:-->
+                     <ser:eepk-/>
+                     <!--Zero or more repetitions:-->
+                     <ser:eeval-/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-BigDecimal value="?"/>
+                  </ser:col-ArrayList>
+                  <ser:col-LinkedList>
+                     <!--You have a CHOICE of the next 27 items at this level-->
+                     <!--Zero or more repetitions:-->
+                     <ser:null value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-String value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Integer value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Long value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Float value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Double value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Boolean value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Locale value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Timestamp value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Date value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Time value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-ArrayList/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-LinkedList/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Stack/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Vector/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-TreeSet/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-HashSet/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Collection/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-HashMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Properties/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Hashtable/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-WeakHashMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-TreeMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Map/>
+                     <!--Zero or more repetitions:-->
+                     <ser:eepk-/>
+                     <!--Zero or more repetitions:-->
+                     <ser:eeval-/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-BigDecimal value="?"/>
+                  </ser:col-LinkedList>
+                  <ser:col-Stack>
+                     <!--You have a CHOICE of the next 27 items at this level-->
+                     <!--Zero or more repetitions:-->
+                     <ser:null value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-String value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Integer value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Long value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Float value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Double value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Boolean value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Locale value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Timestamp value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Date value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Time value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-ArrayList/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-LinkedList/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Stack/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Vector/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-TreeSet/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-HashSet/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Collection/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-HashMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Properties/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Hashtable/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-WeakHashMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-TreeMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Map/>
+                     <!--Zero or more repetitions:-->
+                     <ser:eepk-/>
+                     <!--Zero or more repetitions:-->
+                     <ser:eeval-/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-BigDecimal value="?"/>
+                  </ser:col-Stack>
+                  <ser:col-Vector>
+                     <!--You have a CHOICE of the next 27 items at this level-->
+                     <!--Zero or more repetitions:-->
+                     <ser:null value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-String value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Integer value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Long value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Float value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Double value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Boolean value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Locale value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Timestamp value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Date value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Time value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-ArrayList/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-LinkedList/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Stack/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Vector/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-TreeSet/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-HashSet/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Collection/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-HashMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Properties/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Hashtable/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-WeakHashMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-TreeMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Map/>
+                     <!--Zero or more repetitions:-->
+                     <ser:eepk-/>
+                     <!--Zero or more repetitions:-->
+                     <ser:eeval-/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-BigDecimal value="?"/>
+                  </ser:col-Vector>
+                  <ser:col-TreeSet>
+                     <!--You have a CHOICE of the next 27 items at this level-->
+                     <!--Zero or more repetitions:-->
+                     <ser:null value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-String value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Integer value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Long value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Float value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Double value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Boolean value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Locale value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Timestamp value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Date value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Time value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-ArrayList/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-LinkedList/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Stack/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Vector/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-TreeSet/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-HashSet/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Collection/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-HashMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Properties/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Hashtable/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-WeakHashMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-TreeMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Map/>
+                     <!--Zero or more repetitions:-->
+                     <ser:eepk-/>
+                     <!--Zero or more repetitions:-->
+                     <ser:eeval-/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-BigDecimal value="?"/>
+                  </ser:col-TreeSet>
+                  <ser:col-HashSet>
+                     <!--You have a CHOICE of the next 27 items at this level-->
+                     <!--Zero or more repetitions:-->
+                     <ser:null value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-String value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Integer value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Long value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Float value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Double value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Boolean value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Locale value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Timestamp value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Date value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Time value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-ArrayList/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-LinkedList/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Stack/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Vector/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-TreeSet/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-HashSet/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Collection/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-HashMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Properties/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Hashtable/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-WeakHashMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-TreeMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Map/>
+                     <!--Zero or more repetitions:-->
+                     <ser:eepk-/>
+                     <!--Zero or more repetitions:-->
+                     <ser:eeval-/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-BigDecimal value="?"/>
+                  </ser:col-HashSet>
+                  <ser:col-Collection>
+                     <!--You have a CHOICE of the next 27 items at this level-->
+                     <!--Zero or more repetitions:-->
+                     <ser:null value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-String value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Integer value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Long value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Float value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Double value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Boolean value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-Locale value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Timestamp value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Date value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:sql-Time value="?"/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-ArrayList/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-LinkedList/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Stack/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Vector/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-TreeSet/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-HashSet/>
+                     <!--Zero or more repetitions:-->
+                     <ser:col-Collection/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-HashMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Properties/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Hashtable/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-WeakHashMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-TreeMap/>
+                     <!--Zero or more repetitions:-->
+                     <ser:map-Map/>
+                     <!--Zero or more repetitions:-->
+                     <ser:eepk-/>
+                     <!--Zero or more repetitions:-->
+                     <ser:eeval-/>
+                     <!--Zero or more repetitions:-->
+                     <ser:std-BigDecimal value="?"/>
+                  </ser:col-Collection>
+                  <ser:map-HashMap/>
+                  <ser:map-Properties/>
+                  <ser:map-Hashtable/>
+                  <ser:map-WeakHashMap/>
+                  <ser:map-TreeMap/>
+                  <ser:map-Map/>
+                  <ser:eepk-/>
+                  <ser:eeval-/>
+                  <ser:std-BigDecimal value="?"/>
+               </ser:map-Value>
+            </ser:map-Entry>
+         </map-Map>
+      </ser:getWorkEffort>
+   </soapenv:Body>
+</soapenv:Envelope>
