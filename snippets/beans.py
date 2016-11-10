@@ -10,100 +10,116 @@ class OrderStatus():
 # <eeval-WorkEffort createdStamp="2016-09-27 00:02:46.0" createdTxStamp="2016-09-27 00:02:44.0" currentStatusId="CAL_TENTATIVE" description="General Party" estimatedCompletionDate="2009-06-17 23:00:00.0" estimatedStartDate="2009-06-17 19:00:00.0" lastStatusUpdate="2008-01-01 00:00:00.0" lastUpdatedStamp="2016-09-30 22:19:15.0" lastUpdatedTxStamp="2016-09-30 22:19:14.0" locationDesc="Tom's Banquet Hall" scopeEnumId="WES_PUBLIC" workEffortId="PublicEvent" workEffortName="The general company party june 17" workEffortTypeId="MEETING"/>
 
 class WorkEffort():
+    def __init__(self, workEffortTypeId=None, workEffortName=None, workEffortId=None, scopeEnumId=None, locationDesc=None, lastUpdatedTxStamp=None, lastUpdatedStamp=None, lastStatusUpdate=None, estimatedStartDate=None, estimatedCompletionDate=None, description=None, createdStamp=None, createdTxStamp=None, currentStatusId=None ):
+        self._workEffortTypeId = workEffortTypeId
+        self._workEffortName = workEffortName
+        self._workEffortId = workEffortId
+        self._scopeEnumId = scopeEnumId
+        self._locationDesc = locationDesc
+        self._lastUpdatedTxStamp = lastUpdatedTxStamp
+        self._lastUpdatedStamp = lastUpdatedStamp
+        self._lastStatusUpdate = lastStatusUpdate
+        self._estimatedStartDate = estimatedStartDate
+        self._estimatedCompletionDate = estimatedCompletionDate
+        self._description = description
+        self._createdStamp = createdStamp
+        self._createdTxStamp = createdTxStamp
+        self._currentStatusId = currentStatusId
+
     @property
     def workEffortTypeId(self):
-        return self.workEffortTypeId
+        return self._workEffortTypeId
     @workEffortTypeId.setter
     def workEffortTypeId(self, workEffortTypeId):
-        self.workEffortTypeId = workEffortTypeId
+        self._workEffortTypeId = workEffortTypeId
 
     @property
     def workEffortName(self):
-        return self.workEffortName
+        return self._workEffortName
     @workEffortName.setter
     def workEffortName(self, workEffortName):
-        self.workEffortName = workEffortName
+        self._workEffortName = workEffortName
 
     @property
     def workEffortId(self):
-        return self.workEffortId
+        return self._workEffortId
     @workEffortId.setter
     def workEffortId(self, workEffortId):
-        self.workEffortId = workEffortId
+        self._workEffortId = workEffortId
 
     @property
     def scopeEnumId(self):
-        return self.scopeEnumId
+        return self._scopeEnumId
     @scopeEnumId.setter
     def scopeEnumId(self, scopeEnumId):
-        self.scopeEnumId = scopeEnumId
+        self._scopeEnumId = scopeEnumId
 
     @property
     def locationDesc(self):
-        return self.locationDesc
+        return self._locationDesc
     @locationDesc.setter
     def locationDesc(self, locationDesc):
-        self.locationDesc = locationDesc
+        self._locationDesc = locationDesc
 
     @property
     def lastUpdatedTxStamp(self):
-        return self.lastUpdatedTxStamp
+        return self._lastUpdatedTxStamp
     @lastUpdatedTxStamp.setter
     def lastUpdatedTxStamp(self, lastUpdatedTxStamp):
-        self.lastUpdatedTxStamp = lastUpdatedTxStamp
+        self._lastUpdatedTxStamp = lastUpdatedTxStamp
 
     @property
     def lastUpdatedStamp(self):
-        return self.lastUpdatedStamp
+        return self._lastUpdatedStamp
     @lastUpdatedStamp.setter
     def lastUpdatedStamp(self, lastUpdatedStamp):
-        self.lastUpdatedStamp = lastUpdatedStamp
+        self._lastUpdatedStamp = lastUpdatedStamp
 
     @property
     def lastStatusUpdate(self):
-        return self.lastStatusUpdate
+        return self._lastStatusUpdate
     @lastStatusUpdate.setter
     def lastStatusUpdate(self, lastStatusUpdate):
-        self.lastStatusUpdate = lastStatusUpdate
+        self._lastStatusUpdate = lastStatusUpdate
 
     @property
     def estimatedStartDate(self):
-        return self.estimatedStartDate
+        return self._estimatedStartDate
     @estimatedStartDate.setter
     def estimatedStartDate(self, estimatedStartDate):
-        self.estimatedStartDate = estimatedStartDate
+        self._estimatedStartDate = estimatedStartDate
 
     @property
     def estimatedCompletionDate(self):
-        return self.estimatedCompletionDate
+        return self._estimatedCompletionDate
     @estimatedCompletionDate.setter
     def estimatedCompletionDate(self, estimatedCompletionDate):
-        self.estimatedCompletionDate = estimatedCompletionDate
+        self._estimatedCompletionDate = estimatedCompletionDate
 
     @property
     def description(self):
-        return self.description
+        return self._description
     @description.setter
     def description(self, description):
-        self.description = description
+        self._description = description
 
     @property
     def createdStamp(self):
-        return self.createdStamp
+        return self._createdStamp
     @createdStamp.setter
     def createdStamp(self, createdStamp):
-        self.createdStamp = createdStamp
+        self._createdStamp = createdStamp
 
     @property
     def createdTxStamp(self):
-        return self.createdTxStamp
+        return self._createdTxStamp
     @createdTxStamp.setter
     def createdTxStamp(self, createdTxStamp):
-        self.createdTxStamp = createdTxStamp
+        self._createdTxStamp = createdTxStamp
 
     @property
     def currentStatusId(self):
-        return self.currentStatusId
+        return self._currentStatusId
     @currentStatusId.setter
     def currentStatusId(self, currentStatusId):
-        self.currentStatusId = currentStatusId
+        self._currentStatusId = currentStatusId

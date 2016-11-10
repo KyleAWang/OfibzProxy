@@ -1,7 +1,7 @@
 from xml.dom.minidom import Document
 import http.client
 import xml.etree.ElementTree as ET
-from .beans import OrderStatus
+from .beans import OrderStatus, WorkEffort
 
 class abstractSoapClient():
     def callSoapService(self, doc, serviceName, params):
@@ -70,7 +70,6 @@ class SoapClient(abstractSoapClient):
         ###### Create the minidom document ######
 
         orderStatus = OrderStatus()
-        print('soapClient', 'orderId:', orderId)
         if orderId:
             doc = Document()
             params = {
@@ -90,19 +89,45 @@ class SoapClient(abstractSoapClient):
             orderStatus = None
         return orderStatus
 
+# <eeval-WorkEffort createdStamp="2016-09-27 00:02:46.0" createdTxStamp="2016-09-27 00:02:44.0" currentStatusId="CAL_TENTATIVE" description="General Party" estimatedCompletionDate="2009-06-17 23:00:00.0" estimatedStartDate="2009-06-17 19:00:00.0" lastStatusUpdate="2008-01-01 00:00:00.0" lastUpdatedStamp="2016-09-30 22:19:15.0" lastUpdatedTxStamp="2016-09-30 22:19:14.0" locationDesc="Tom's Banquet Hall" scopeEnumId="WES_PUBLIC" workEffortId="PublicEvent" workEffortName="The general company party june 17" workEffortTypeId="MEETING"/>
     def getWorkEfforts(self):
         doc = Document()
         root = super().callSoapService(doc, 'getWorkEffortsKS', None)
+        workEfforts = [ ]
         for child in root:
             for chia in child:
                 for chib in chia:
                     for chic in chib:
-                        print(1, chic)
                         for chid in chic:
-                            print(2, chid)
                             for chie in chid:
-                                print(3, chie)
                                 for chif in chie:
-                                    print(4, chif)
-                                    print(chif.attrib['createdStamp'])
-        # print(root)
+                                    workEffort = WorkEffort()
+                                    if 'workEffortId' in chif.attrib:
+                                        workEffort.workEffortId = chif.attrib['workEffortId']
+                                    if 'createdTxStamp' in chif.attrib:
+                                        workEffort.createdTxStamp = chif.attrib['createdTxStamp']
+                                    if 'currentStatusId' in chif.attrib:
+                                        workEffort.currentStatusId = chif.attrib['currentStatusId']
+                                    if 'description' in chif.attrib:
+                                        workEffort.description = chif.attrib['description']
+                                    if 'estimatedCompletionDate' in chif.attrib:
+                                        workEffort.estimatedCompletionDate = chif.attrib['estimatedCompletionDate']
+                                    if 'estimatedStartDate' in chif.attrib:
+                                        workEffort.estimatedStartDate = chif.attrib['estimatedStartDate']
+                                    if 'lastStatusUpdate' in chif.attrib:
+                                        workEffort.lastStatusUpdate = chif.attrib['lastStatusUpdate']
+                                    if 'lastUpdatedStamp' in chif.attrib:
+                                        workEffort.lastUpdatedStamp = chif.attrib['lastUpdatedStamp']
+                                    if 'lastUpdatedTxStamp' in chif.attrib:
+                                        workEffort.lastUpdatedTxStamp = chif.attrib['lastUpdatedTxStamp']
+                                    if 'locationDesc' in chif.attrib:
+                                        workEffort.locationDesc = chif.attrib['locationDesc']
+                                    if 'scopeEnumId' in chif.attrib:
+                                        workEffort.scopeEnumId = chif.attrib['scopeEnumId']
+                                    if 'workEffortTypeId' in chif.attrib:
+                                        workEffort.workEffortTypeId = chif.attrib['workEffortTypeId']
+                                    if 'workEffortName' in chif.attrib:
+                                        workEffort.workEffortName = chif.attrib['workEffortName']
+                                    workEfforts.append(workEffort)
+
+        return workEfforts

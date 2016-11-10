@@ -21,3 +21,20 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 class OrderStatusSerializer(serializers.Serializer):
     orderId = serializers.CharField(max_length=100)
     statusId = serializers.CharField(max_length=100)
+
+
+class WorkEffortsSerializer(serializers.Serializer):
+        workEffortTypeId = serializers.CharField(max_length=100)
+        workEffortName = serializers.CharField(max_length=200)
+        workEffortId = serializers.CharField(max_length=100)
+        scopeEnumId = serializers.CharField(max_length=100)
+        locationDesc = serializers.CharField(max_length=500)
+        lastUpdatedTxStamp = serializers.DateTimeField
+        lastUpdatedStamp = serializers.DateTimeField
+        lastStatusUpdate = serializers.DateTimeField
+        estimatedCompletionDate = serializers.DateTimeField
+        description = serializers.CharField(max_length=500)
+        createdStamp = serializers.DateTimeField
+        createdTxStamp = serializers.DateTimeField
+        currentStatusId = serializers.CharField(max_length=100)
+

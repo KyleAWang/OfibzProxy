@@ -1,6 +1,6 @@
 from snippets.models import Snippet
 from snippets.permissions import IsOwnerOrReadOnly
-from snippets.serializers import SnippetSerializer, UserSerializer, OrderStatusSerializer
+from snippets.serializers import SnippetSerializer, UserSerializer, OrderStatusSerializer, WorkEffortsSerializer
 from django.contrib.auth.models import User
 from rest_framework import permissions
 from rest_framework.decorators import api_view, detail_route
@@ -49,6 +49,8 @@ class OrderStatusView(APIView):
 class WorkEffortsView(APIView):
     def get(self, request):
         soapClient = SoapClient()
-        soapClient.getWorkEfforts()
-        return Response();
+        workEfforts = soapClient.getWorkEfforts()
+        serializer = WorkEffortsSerializer(workEfforts, many=True)
+
+        return Response(serializer.data)
 
